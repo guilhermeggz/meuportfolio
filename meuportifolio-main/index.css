@@ -1,0 +1,28 @@
+* {
+
+}
+
+.menu {
+    background-color: #e9eaeb;
+    display: flex;
+    text-align: center;
+}
+
+header {
+    background-color: #4f89ab;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    background-color: #e9eaeb;
+}
+
+#services {
+    background-color: #4f89ab;
+}
+
+footer {
+    background-color: #e9eaeb;
+}
