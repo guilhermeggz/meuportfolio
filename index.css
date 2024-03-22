@@ -15,12 +15,34 @@ header {
     padding: 10px;
 }
 
+header * {
+    color: #e9eaeb;
+}
+
 main {
     background-color: #e9eaeb;
+    h2,ul {
+        max-width: 460px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+    th {
+        background-color: #4f89ab;
+    }
 }
 
 #services {
     background-color: #4f89ab;
+}
+
+#services * {
+    color: #e9eaeb;
 }
 
 footer {
