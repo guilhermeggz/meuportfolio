@@ -9,6 +9,7 @@
 
 html{
     scroll-behavior: smooth;
+    font-size: 17px;
 }
 
 
@@ -27,12 +28,11 @@ body{
 header{
     padding: 40px 4%;
     padding-top: 50px;
-    font-size: 20px;
 }
 
 header h1{
     font-weight: 400;
-    font-size: 150%;
+    font-size: 1.7rem;
 }
 
 header > .menu{
@@ -85,25 +85,26 @@ header nav ul li{
 
 .ola{
     text-align: center;
-    margin: 0 60px;
-    font-size: 25px
+    margin-left: 60px;
 }
 
 .ola h3{
-    margin: 10px;
+    margin-bottom: 10px;
     font-weight: 300;
-    color: #d3dde2;
+    color: #d3dde2; 
+    font-size: 1.45rem;
 }
 
 .ola h2{
-    margin: 10px 0 25px;
+    margin:10px 0;
     font-weight: 300;
     color: #d3dde2;
+    font-size: 1.47rem;
 }
 
 .ola h1{
-    font-weight: 400;
-    font-size: 160%;
+    font-weight: 600;
+    font-size: 2.35rem;
     color: #ffffff;
 }
 
@@ -115,47 +116,49 @@ header nav ul li{
 
 .ola .social-media i:hover{
     color: #d3dde2;
-    transition: .2s 
+    transition: .2s;
 }
 
 /* ESTILO SOBRE MIM*/
 #about{
     background-color: #e9eaeb;
-    padding: 80px 10%;
+    padding: 60px 10%;
     margin: 0 auto;
-    display: flex;
-
-}
-
-#about img{
-    border-radius: 5%;
-    filter: grayscale(100) contrast(130%);
-    box-shadow: 0px 0px 10px rgb(160, 160, 160);
-}
-
-.conteudo-sobre{
-    text-align: center;
-    justify-content: center;
-    font-size: 17px;
-    margin-right: 75px;
-    margin-top: 15px;
 }
 
 .titulo-sobre{
-    margin-bottom: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #387396;
 }
 .titulo-sobre h2{
-    font-weight: 400;
-    font-size: 170%;
+    font-weight: 600;
+    font-size: 2.3rem;
 }
 
 .titulo-sobre h3{
     font-weight: 400;
-    font-size: 120%
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.conteudo-sobre{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
 }
 
 .texto-sobre p{
     line-height: 35px;
+    text-align: right;
+    font-size: 1.05rem;
+}
+
+.conteudo-sobre img{
+    border-radius: 5%;
+    filter: grayscale(100) contrast(130%);
+    box-shadow: 0px 0px 10px rgb(160, 160, 160);
 }
 
 /* ESTILO FORMACAO-EXPERIENCIAS*/
@@ -166,13 +169,14 @@ header nav ul li{
     justify-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-size: 17px;
 }
 
 #for-exp .titulo-timeline h2{
-    font-weight: 400;
-    font-size: 170%;
+    font-weight: 500;
+    font-size: 2.3rem;
     margin-bottom: 25px;
+    margin-top: 25px;
+    color: #387396;
 }
 
 #for-exp .content{ 
@@ -227,25 +231,24 @@ table, td, th{
     border: solid 1px;
 }
 
-/* EXPERIENCIAS */
+/* SERVICOS */
 #services{
     position: relative;
     color: #e9eaeb;
     padding: 40px 4%;
     cursor: default;
-    font-size:17px;
 }
 
 #services h2{
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
-    font-size: 170%
+    font-size: 2.3rem;
 }
 
 .titulo-experiencia{
     font-weight: 500;
     margin-bottom: 2rem;
-    font-size: 25px;
+    font-size: 1.47rem;
     text-align: center;
 }
 
@@ -294,7 +297,7 @@ table, td, th{
 }
 
 .unidade-detalhe i{
-    font-size: 30px;
+    font-size: 1.1rem;
     text-align: center;
     justify-content: center;
 }
@@ -302,11 +305,10 @@ table, td, th{
 .unidade-detalhe{
     h3{
         font-weight: 500;
-        font-size: 17px;
     }
     p{
         font-weight: 400;
-        font-size: 13px;
+        font-size: 0.76rem;
         color: #d3dde2
     }
 }
@@ -314,29 +316,31 @@ table, td, th{
 /* RODAPÉ */
 footer{
     padding: 40px 4%;
+    padding-bottom: 30px;
     background-color: #e9eaeb;
     text-align: center;
 }
 
 footer h3{
     font-weight: 400;
-    color: rgb(56, 56, 56);
-    font-size: 95%;
+    font-size: .95rem;
+    color: #387396;
 }
 
 footer h2{
-    font-weight: 500;
-    font-size: 170%;
+    font-weight: 600;
+    font-size: 2.3rem;
+    color: #387396;
 }
 
 #redes{
-    margin: 40px 15px;
+    margin: 40px 15px 30px;
     justify-content: space-around;
     display: flex;
 }
 
 #redes i{
-    font-size: 35px;
+    font-size: 2.05rem;
     color: #e9eaeb;
 }
 
@@ -363,13 +367,13 @@ footer a{
 
 #contato button{
     color: #e9eaeb;
-    font-size: 100%;
-    width: 200px;
+    width: 230px;
     height: 50px;
     background-color: #4f89ab;
     border-radius: 10px;
     border-style: none;
-    cursor: pointer
+    cursor: pointer;
+    font-size: 1.01rem;
 }
 
 #contato button:hover{
@@ -378,11 +382,146 @@ footer a{
     transition: .2s;
 }
 
+/* FORMULARIO MENSAGEM */
+#formulario{
+    background-color: #e9eaeb;
+    padding: 60px 4%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: #d3dde2 0.2rem solid;
+    border-color: #d3dde2;
+}
 
+#formulario h2{
+    font-weight: 600;
+    font-size: 2.3rem;
+    margin-bottom: 30px;
+    color:#387396;
+}
 
+form{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
 
+form input, textarea{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #4f89ab;
+    font-size: 1.05rem;
+}
 
+form input::placeholder, textarea::placeholder{
+    color: #4f89ab
+}
 
+form textarea{
+    resize: none;
+}
+
+form .enviar{
+    margin-top: 15px;
+}
+
+form .enviar input{
+    width: 100px;
+    color:#387396;
+    background-color: #d3dde2;
+    cursor: pointer;
+}
+
+form .enviar input:hover{
+    color: #e9eaeb;
+    background-color: #4f89ab;
+    transition: .2s;
+}
+
+@media screen and (max-width: 1180px){
+    header{
+        padding: 20px 4%;
+        font-size: 1.05rem;
+    }
+}
+
+@media screen and (max-width: 1113px){
+    header a{
+        display: none;
+    }
+    header nav{
+        max-width: 0px;
+    }
+
+}
+
+@media screen and (max-width: 1070px){
+    .ola{
+        margin: 0px 30px
+    }
+}
+
+@media screen and (max-width: 1010px){
+    header{
+        padding: 0 10;
+        margin: 0;
+    }
+
+    #site-top{
+        padding-top: 0px;
+    }
+
+    #site-top h1{
+        font-size: 3.37vw;
+    }
+
+    #site-top h2{
+        font-size: 1.4rem;
+    }
+
+    #site-top h3{
+        font-size: 1.35rem;
+    }
+
+    #site-top img{
+        width: 30vw;
+    }
+
+    .conteudo-sobre{
+        flex-direction: column;
+    }
+
+    .texto-sobre p{
+        text-align: center;
+    }
+
+    #for-exp{
+        grid-template-columns: 1fr
+    }
+}
+
+@media screen and (max-width: 760px){
+    #site-top{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #site-top h1{
+        font-size: 5vw;
+    }
+
+    #site-top img{
+        width: 45vw;
+    }
+
+    .containers{
+        flex-direction: column;
+    }
+}
 #e9eaeb;
 #4f89ab;
     
