@@ -1,0 +1,68 @@
+@media screen and (max-width: 1180px){
+    header{
+        font-size: 1.05rem;
+    }
+}
+
+@media screen and (max-width: 1070px){
+    .ola{
+        margin: 0px 30px
+    }
+}
+
+@media screen and (max-width: 1010px){
+    header{
+        padding: 0 10;
+    }
+
+    #site-top{
+        padding-top: 0px;
+    }
+
+    #site-top h1{
+        font-size: 3.37vw;
+    }
+
+    #site-top h2{
+        font-size: 1.4rem;
+    }
+
+    #site-top h3{
+        font-size: 1.35rem;
+    }
+
+    #site-top img{
+        width: 30vw;
+    }
+
+    .conteudo-sobre{
+        flex-direction: column;
+    }
+
+    .texto-sobre p{
+        text-align: center;
+    }
+
+    #for-exp{
+        grid-template-columns: 1fr
+    }
+}
+
+@media screen and (max-width: 760px){
+    #site-top{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #site-top h1{
+        font-size: 5vw;
+    }
+
+    #site-top img{
+        width: 45vw;
+    }
+
+    .containers{
+        flex-direction: column;
+    }
+}

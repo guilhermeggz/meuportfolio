@@ -10,10 +10,7 @@
 html{
     scroll-behavior: smooth;
     font-size: 17px;
-    max-width: 1280px;
-    margin: 0 auto;
 }
-
 
 body{
     background-color: #4f89ab;;
@@ -22,8 +19,8 @@ body{
 
 /* HEADER DO PORTFOLIO */
 header{
-    padding: 40px 4%;
-    padding-top: 50px;
+    max-width: 1280px;
+    margin: 0 35px;
 }
 
 header h1{
@@ -31,11 +28,12 @@ header h1{
     font-size: 1.7rem;
 }
 
-header > .menu{
+header .menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: #e9eaeb;
+    height: 17vh;
 }
 
 header a{
@@ -167,7 +165,7 @@ header nav ul li{
     grid-template-columns: 1fr 1fr;
 }
 
-#for-exp .titulo-timeline h2{
+.titulo-timeline h2{
     font-weight: 500;
     font-size: 2.3rem;
     margin-bottom: 25px;
@@ -175,13 +173,13 @@ header nav ul li{
     color: #387396;
 }
 
-#for-exp .content{ 
-    justify-content: center;
+.content{ 
+    align-items: center;
     padding: 0 30px;
     border-left: solid 2px rgb(168, 168, 168);
 }
 
-#for-exp .content .box{
+.content .box{
     max-width: 300px;
     position: relative;
     padding: 20px;
@@ -191,13 +189,13 @@ header nav ul li{
     margin-bottom: 20px;
 }
 
-#for-exp .content .box:hover{
+.content .box:hover{
     border: solid 1px transparent;
     box-shadow: 0 0 8px #4f89ab;
     backdrop-filter: blur(2px);
 }
 
-#for-exp .content .box::before{
+.content .box::before{
     content: '';
     position: absolute;
     width: 16px;
@@ -221,10 +219,6 @@ header nav ul li{
 
 .content .box p{
     font-weight: 400
-}
-
-table, td, th{
-    border: solid 1px;
 }
 
 /* SERVICOS */
@@ -381,10 +375,15 @@ footer a{
 /* FORMULARIO MENSAGEM */
 #formulario{
     background-color: #e9eaeb;
-    padding: 60px 4%;
+    padding: 50px 4%;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.falecomigo{
+    max-width: 1280px;
+    padding: 20px 0;
     border-bottom: #d3dde2 0.2rem solid;
     border-color: #d3dde2;
 }
@@ -392,8 +391,7 @@ footer a{
 #formulario h2{
     font-weight: 600;
     font-size: 2.3rem;
-    margin-bottom: 30px;
-    color:#387396;
+    color: #387396;
 }
 
 form{
@@ -436,87 +434,6 @@ form .enviar input:hover{
     color: #e9eaeb;
     background-color: #4f89ab;
     transition: .2s;
-}
-
-@media screen and (max-width: 1180px){
-    header{
-        padding: 20px 4%;
-        font-size: 1.05rem;
-    }
-}
-
-@media screen and (max-width: 1113px){
-    header a{
-        display: none;
-    }
-    header nav{
-        max-width: 0px;
-    }
-
-}
-
-@media screen and (max-width: 1070px){
-    .ola{
-        margin: 0px 30px
-    }
-}
-
-@media screen and (max-width: 1010px){
-    header{
-        padding: 0 10;
-        margin: 0;
-    }
-
-    #site-top{
-        padding-top: 0px;
-    }
-
-    #site-top h1{
-        font-size: 3.37vw;
-    }
-
-    #site-top h2{
-        font-size: 1.4rem;
-    }
-
-    #site-top h3{
-        font-size: 1.35rem;
-    }
-
-    #site-top img{
-        width: 30vw;
-    }
-
-    .conteudo-sobre{
-        flex-direction: column;
-    }
-
-    .texto-sobre p{
-        text-align: center;
-    }
-
-    #for-exp{
-        grid-template-columns: 1fr
-    }
-}
-
-@media screen and (max-width: 760px){
-    #site-top{
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    #site-top h1{
-        font-size: 5vw;
-    }
-
-    #site-top img{
-        width: 45vw;
-    }
-
-    .containers{
-        flex-direction: column;
-    }
 }
 #e9eaeb;
 #4f89ab;
