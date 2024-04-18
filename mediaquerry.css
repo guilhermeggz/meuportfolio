@@ -26,6 +26,7 @@
     .pag-contato .menu-mobile{
         display: grid;
         gap: .25rem;
+        height: 10vh;
     }
 
     header .menu{
