@@ -35,6 +35,18 @@ header .menu{
     height: 17vh;
 }
 
+header .menu-mobile{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #e9eaeb;
+}
+
+header .menu-mobile ul{
+    justify-content: center;
+}
+
 header a{
     color: #d3dde2 ;
     text-decoration: none;
@@ -428,6 +440,3 @@ form .enviar input:hover{
     background-color: #4f89ab;
     transition: .2s;
 }
-#e9eaeb;
-#4f89ab;
-    

@@ -19,6 +19,15 @@
 }
 
 @media screen and (max-width: 900px){
+    .pag-contato .menu{
+        display: none;
+    }
+
+    .pag-contato .menu-mobile{
+        display: grid;
+        gap: .25rem;
+    }
+
     header .menu{
         justify-content: center;
         align-items: center;
