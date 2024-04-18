@@ -1,46 +1,16 @@
-@media screen and (max-width: 1180px){
-    header{
-        font-size: 1.05rem;
-    }
-}
-
-@media screen and (max-width: 1070px){
-    .ola{
-        margin: 0px 30px
-    }
-}
-
-@media screen and (max-width: 1010px){
-    header{
-        padding: 0 10;
-    }
-
+@media screen and (max-width: 1110px){
     #site-top{
-        padding-top: 0px;
+        flex-direction: column;
+        gap: 2rem;
     }
-
-    #site-top h1{
-        font-size: 3.37vw;
-    }
-
-    #site-top h2{
-        font-size: 1.4rem;
-    }
-
-    #site-top h3{
-        font-size: 1.35rem;
-    }
-
-    #site-top img{
-        width: 30vw;
-    }
-
+    
     .conteudo-sobre{
         flex-direction: column;
+        gap: 2.5rem;
     }
 
     .texto-sobre p{
-        text-align: center;
+        text-align: left;
     }
 
     #for-exp{
@@ -48,21 +18,51 @@
     }
 }
 
-@media screen and (max-width: 760px){
-    #site-top{
-        flex-direction: column;
-        gap: 10px;
+@media screen and (max-width: 900px){
+    header .menu{
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
     }
 
-    #site-top h1{
-        font-size: 5vw;
+    .menu h1{
+        text-align: center;
     }
 
-    #site-top img{
-        width: 45vw;
+    .menu nav{
+        display: none;
     }
 
     .containers{
-        flex-direction: column;
+            flex-direction: column;
+        }
+}
+
+@media screen and (max-width: 600px){
+    #redes i{
+        font-size: 1.5rem;
+    }
+
+    #redes button{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #site-top img{
+        width: 80vw;
+    }
+
+    #about img{
+        width: 80vw;
+    }
+
+    .entre-container{
+        max-width: 90vw;
+    }
+
+    #services h2, .titulo-experiencia{
+        font-size: 10vw;
     }
 }
