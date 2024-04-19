@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-15T00:05:59.368Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Dw2VnKV5F4tKtDuifCIz" version="24.0.5" type="device">
+<mxfile host="app.diagrams.net" modified="2024-04-19T00:15:06.804Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="qSmZ9k5U4fJ7ZVP9alTI" version="24.2.1" type="device">
   <diagram name="Página-1" id="iQK3GB3rTl5IFS7BH4yy">
-    <mxGraphModel dx="756" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1512" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,11 +67,17 @@
         <mxCell id="-Pl0f8S0vRPAaxaG-yZ--24" value="&lt;font color=&quot;#ffffff&quot;&gt;Áreas de Atuação&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="80" y="560" width="730" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="5_ICcsxwsLxnQLs51w0j-1" value="Color Idea 1&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4F89AB;" vertex="1" parent="1">
+        <mxCell id="5_ICcsxwsLxnQLs51w0j-1" value="Color Idea 1&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4F89AB;" parent="1" vertex="1">
           <mxGeometry x="10" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5_ICcsxwsLxnQLs51w0j-2" value="&lt;font color=&quot;#ffffff&quot;&gt;Color Idea 2&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#020405;" vertex="1" parent="1">
+        <mxCell id="5_ICcsxwsLxnQLs51w0j-2" value="&lt;font color=&quot;#ffffff&quot;&gt;Color Idea 2&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#020405;" parent="1" vertex="1">
           <mxGeometry x="160" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q1Ey_vbQQBh8fzx_5P-x-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="90" width="1020" height="525" as="geometry" />
+        </mxCell>
+        <mxCell id="q1Ey_vbQQBh8fzx_5P-x-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="90" width="1020" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

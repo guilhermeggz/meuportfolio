@@ -35,28 +35,13 @@ header .menu{
     height: 17vh;
 }
 
-header .menu-mobile{
-    display: none;
-    padding-top: 9px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #e9eaeb;
-    gap: .25rem;
-    height: 52px;
-}
-
-header .menu-mobile ul{
-    justify-content: center;
-}
-
 header a{
     color: #d3dde2 ;
     text-decoration: none;
     display: inline-block;
 }
 
-header a:hover{
+header ul a:hover{
     color:#ffffff;
     transform: scale(1.07);
     text-decoration: underline;

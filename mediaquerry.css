@@ -19,18 +19,10 @@
 }
 
 @media screen and (max-width: 900px){
-    .pag-contato .menu{
-        display: none;
-    }
-
-    .pag-contato .menu-mobile{
-        display: grid;
-    }
-
     header .menu{
         justify-content: center;
         align-items: center;
-        height: 52px;
+        height: 10vh;
     }
 
     .menu h1{
