@@ -37,10 +37,13 @@ header .menu{
 
 header .menu-mobile{
     display: none;
+    padding-top: 9px;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: #e9eaeb;
+    gap: .25rem;
+    height: 10vh;
 }
 
 header .menu-mobile ul{
